@@ -7,9 +7,9 @@ public class FtpUtilTest {
 	@Test
 	public void deleteTest() throws Exception {
 		// remote ftp server
-		String server = "172.20.16.61";
-		String user = "tcs";
-		String pass = "tcs";
+		String server = "localhost";
+		String user = "username";
+		String pass = "password";
 		int port = 21;
 		String filePath = "D:/1.sql";
 		String remoteFilePath = "/ftptest/1.sql";
@@ -20,9 +20,9 @@ public class FtpUtilTest {
 	@Test
 	public void uploadTest() throws Exception {
 		// remote ftp server
-		String server = "172.20.16.61";
-		String user = "tcs";
-		String pass = "tcs";
+		String server = "localhost";
+		String user = "username";
+		String pass = "password";
 		int port = 21;
 		String filePath = "D:/ksb.zip";
 		String remoteFilePath = "/ftptest/test1/";
@@ -33,9 +33,9 @@ public class FtpUtilTest {
 	@Test
 	public void downloadTest() throws Exception {
 		// remote ftp server
-		String server = "172.20.16.61";
-		String user = "tcs";
-		String pass = "tcs";
+		String server = "localhost";
+		String user = "username";
+		String pass = "password";
 		int port = 21;
 		String filePath = "D:/ftpDownload/";
 		String remoteFilePath = "/ftptest/test1/ksb.zip";
